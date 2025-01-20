@@ -179,8 +179,18 @@ print(f"RougeL점수:{rouge_scores['rougeL']}")
 
 
 - 결과<br/>
+
+## 홈택스 답변
+
 <img src="https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN06-4th-04Team/blob/main/result_img/hometax.png"><br/>
 <img src="https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN06-4th-04Team/blob/main/result_img/hometax_response.png"><br/>
+
+```python
+
+query = "2023년 4월 25일에 취업했습니다. 취업 하기 전에 지출한 월세, 신용카드 결제 금액을 연말정산시 공제 받을 수 있나요?"
+response = rag_chain.invoke(query)
+
+```
 
 답변: 
  취업 전 지출한 월세나 신용카드 결제 금액의 연말정산 공제 여부는 특정 조건에 따라 달라질 수 있습니다.일반적으로 연말정산에서 소득공제는 해당 과세기간 내 소득이 있는 경우에만 공제 가능합니다.따라서, 취업 이전에 소득이 없다면 해당 기간 동안의 지출에 대해서는 소득공제를 받을 수 있는 기준이 충족되지 않을 수 있습니다.
