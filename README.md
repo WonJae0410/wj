@@ -114,12 +114,6 @@ print(f"RougeL점수:{rouge_scores['rougeL']}")
 - 결과<br/>
 <img src="https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN06-4th-04Team/blob/main/result_img/q_a_10pair.png"> <br/>
 
-## 4가지 지표로 해석 ##
-
-# LLM 성능 평가
-
-이 문서는 LLM(대규모 언어 모델)의 성능을 네 가지 주요 지표(`context_recall`, `lm_context_precision_with_reference`, `faithfulness`, `answer_relevancy`)를 기반으로 평가한 내용을 정리한 것입니다.
-
 ## 지표 설명
 
 1. **context_recall**  
